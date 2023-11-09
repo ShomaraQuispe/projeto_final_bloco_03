@@ -7,11 +7,11 @@ function Navbar() {
                 flex justify-center py-4'>
             
                 <div className="container flex justify-between text-lg">
-                    Farmácia do Bem
+                    <Link to='/home' className='hover:underline'>Farmácia do Bem</Link>
 
                     <div className='flex gap-4'>
                         Produtos
-                        Categorias
+                        <Link to='/categorias' className='hover:underline'>Categorias</Link>
                         <Link to='/cadastroCategoria' className='hover:underline'>Cadastrar Categoria</Link>
                     </div>
                 </div>
